@@ -1,0 +1,60 @@
+#form_body{
+    width: 350px;
+    height: 450px;
+    background: linear-gradient(#12324287, #87679698);
+    margin: 150px auto;
+}
+#login_title{
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    background: ;
+    margin-left: 20px;
+}
+#login_title h2{
+    text-transform:uppercase;
+}
+#login_title h4{
+    margin-top: -20px;
+}
+
+#input_details{
+    margin-left:50px;
+}
+.input_label{
+    text-transform: uppercase;
+}
+.input_box{
+    width: 80%;
+    height: 30px;
+    margin-top:5px;
+    margin-bottom: 30px;
+    background:#34343498;
+
+}
+
+.input_box span{
+    color: white;
+    width: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.input_box input{
+    height: 100%;
+    width: 200px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+input[type = 'passward']::placeholder{
+    text-align:right;
+    color: black;
+    margin-right:10px;
+}
+#submit_box{
+    width: 200px;
+    padding: 8px;
+    background:#11111154;
+    margin-left: 25px; 
+}
